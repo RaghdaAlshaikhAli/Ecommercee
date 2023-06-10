@@ -11,20 +11,25 @@ const Info = styled.div`
   z-index: 3;
   display: flex;
   align-items: center;
+  gap:15px;
   justify-content: center;
   transition: all 0.5s ease;
   cursor: pointer;
 `;
-
+const Text = styled.h5`
+font-size:20px;
+`
 const Container = styled.div`
   margin: 5px;
   min-width: 280px;
-  height: 350px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+  height: 320px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: #efe3d5;
+  gap:15px;
+  background-color: #fff;
   border-radius: 20px;
+  flex-direction:column;
   position: relative;
   &:hover ${Info} {
   border-radius: 20px;
@@ -33,10 +38,9 @@ const Container = styled.div`
 `;
 
 const Image = styled.img`
-  height: 50%;
-  padding: 10px;
+  height: 70%;
+  border-radius: 20px;
   width: 100%;
-  z-index: 2;
 `;
 
 const Icon = styled.div`
@@ -55,4 +59,4 @@ const Icon = styled.div`
   }
 `;
 
-export { Info, Container, Image, Icon };
+export { Info, Container, Image, Icon, Text };
