@@ -13,26 +13,25 @@ const Cart = () => {
         <Container>
             <Announcement />
             <Wrapper>
-                <Title>YOUR BAG</Title>
+                <Title>YOUR Order</Title>
                 <Top>
-                    <TopButton>CONTINUE SHOPPING</TopButton>
+                    <TopButton>CONTINUE ORDERING</TopButton>
                     <TopButton type="filled">CHECKOUT NOW</TopButton>
                 </Top>
                 <Bottom>
                     <Info>
                         <Product>
                             <ProductDetail>
-                                <Image src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1614188818-TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_b01b1013-cd8d-48e7-bed9-52db26515dc4.png?crop=1xw:1.00xh;center,top&resize=480%3A%2A" />
+                                <Image src="https://i.pinimg.com/564x/ef/16/81/ef16819c574a0cbe05633dded4c75dda.jpg" />
                                 <Details>
                                     <ProductName>
-                                        <b>Product:</b> JESSIE THUNDER SHOES
+                                        <b>Product:</b> beaf
                                     </ProductName>
                                     <ProductId>
                                         <b>ID:</b> 93813718293
                                     </ProductId>
-                                    <ProductColor color="black" />
                                     <ProductSize>
-                                        <b>Size:</b> 37.5
+                                        <b>Size:</b> small
                                     </ProductSize>
                                 </Details>
                             </ProductDetail>
@@ -48,17 +47,16 @@ const Cart = () => {
                         <Hr />
                         <Product>
                             <ProductDetail>
-                                <Image src="https://i.pinimg.com/originals/2d/af/f8/2daff8e0823e51dd752704a47d5b795c.png" />
+                                <Image src="https://i.pinimg.com/564x/5f/1d/23/5f1d23e02f7b191b66ac1cc91eaf1116.jpg" />
                                 <Details>
                                     <ProductName>
-                                        <b>Product:</b> HAKURA T-SHIRT
+                                        <b>Product:</b>  Pizza
                                     </ProductName>
                                     <ProductId>
                                         <b>ID:</b> 93813718293
                                     </ProductId>
-                                    <ProductColor color="gray" />
                                     <ProductSize>
-                                        <b>Size:</b> M
+                                        <b>Size:</b> large
                                     </ProductSize>
                                 </Details>
                             </ProductDetail>
