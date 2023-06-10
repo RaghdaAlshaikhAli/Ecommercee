@@ -6,6 +6,7 @@ const Container = styled.div`
 `;
 const Title = styled.h2`
   margin-bottom: 20px;
+  text-align:center;
 `;
 
 const Flex = styled.div`

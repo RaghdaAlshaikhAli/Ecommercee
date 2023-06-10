@@ -8,7 +8,7 @@ const OneItem = ({ title, num, img, backgroundColor, color }) => {
             <Content>
                 <H3>{title}</H3>
                 <H2 color={color}>{num}</H2>
-                <P>Explore Our Furniture & Home Furnishing Range</P>
+                <P>Explore Our Resturant && lorem</P>
             </Content>
             <Img>
                 <Image src={img} />

@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.js";
-import bag2 from '../../../assets/images/bag2.jpg'
-import clothes from '../../../assets/images/clothes.jpg'
-import shop from '../../../assets/images/shop.jpg'
-import sofa from '../../../assets/images/sofa.jpg'
+import bag2 from '../../../assets/images/checkien.jpg'
+import clothes from '../../../assets/images/dolma.jpg'
+import shop from '../../../assets/images/hamburger.jpg'
+import sofa from '../../../assets/images/lamb.jpg'
 import OneItem from "./OneItem/index.js";
 import { Container, Title, Flex } from "./style.js";
 
@@ -13,35 +13,31 @@ const Discount = () => {
             <Title>Get Up To 70% Off</Title>
             <Flex>
                 <OneItem
-                    title={"save"}
                     num={"$29"}
                     img={sofa}
                     color={"#CB9917"}
-                    backgroundColor={"#F2E4D9"}
+                    backgroundColor={"#C2DEDC"}
                 />
 
                 <OneItem
-                    title={"save"}
                     num={"$70"}
                     img={shop}
                     color={"#961F1F"}
-                    backgroundColor={"#F9DCDC"}
+                    backgroundColor={"#ECE5C7"}
                 />
 
                 <OneItem
-                    title={"save"}
                     num={"$50"}
                     img={clothes}
                     color={"#94623C"}
-                    backgroundColor={"#F2E4D9"}
+                    backgroundColor={"#CDC2AE"}
                 />
 
                 <OneItem
-                    title={"save"}
                     num={"$100"}
                     color={"#003D29"}
                     img={bag2}
-                    backgroundColor={"#D2F7EC"}
+                    backgroundColor={"#116A7B"}
                 />
             </Flex>
         </Container>

@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  width: 350px;
-  height: 300px;
-  border-radius: 20px;
+width: 400px;
+height: 400px;
+text-align:center;
+  border-radius: 50%;
   margin-bottom:180px;
   background-color: ${(props) => props.backgroundColor};
 `;
@@ -18,11 +19,12 @@ const H3 = styled.h3`
 `;
 const P = styled.p``;
 const Image = styled.img`
-  width: 100%;
-  height: 100%;
+  width: 200px;
+  height: 200px;
   transition: 0.3s;
   object-fit: cover;
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 50%;
+  margin-top:10px;
   overflow: hidden;
   &:hover {
     transform: scale(1.1);

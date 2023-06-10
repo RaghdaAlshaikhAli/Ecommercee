@@ -12,7 +12,7 @@ import book from '../../../assets/images/ken.jpg'
 const Category = () => {
     return (
         <div className='category'>
-            <h3>Shop Our Top Categories</h3>
+            <h3>Some types of menu</h3>
             <div className='flex'>
                 <OneCategory title={'Burger'} photo={fur} />
                 <OneCategory title={'Pizza'} photo={bag} />

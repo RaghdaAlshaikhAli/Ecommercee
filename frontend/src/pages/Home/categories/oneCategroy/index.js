@@ -9,9 +9,6 @@ const OneCategory = ({ title, photo, desc }) => {
                 backgroundSize: 'cover',
             }}>
             <h4>{title}</h4>
-            <div>
-                <h5>{'desc'}</h5>
-            </div>
         </div>
     )
 }
