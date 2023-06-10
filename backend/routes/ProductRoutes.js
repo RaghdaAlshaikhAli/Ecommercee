@@ -3,9 +3,9 @@ const { getProductCategory, PostProductCategory, PatchProductCategory, DeletePro
 const ProductRouter = express.Router();
 
 
-ProductRouter.get('/productCategory', getProductCategory)
-ProductRouter.post('/productCategory', PostProductCategory)
-ProductRouter.patch('/productCategory/:id', PatchProductCategory)
-ProductRouter.delete('/productCategory/:id', DeleteProductCategory)
+ProductRouter.get('/products', getProductCategory)
+ProductRouter.post('/products', PostProductCategory)
+ProductRouter.patch('/products/:id', PatchProductCategory)
+ProductRouter.delete('/products/:id', DeleteProductCategory)
 
 module.exports = ProductRouter
