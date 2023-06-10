@@ -3,11 +3,11 @@ import './style.scss'
 
 // images
 import OneCategory from './oneCategroy'
-import fur from '../../../assets/images/fur.jpg'
-import bag from '../../../assets/images/bag.jpg'
-import shoes from '../../../assets/images/shoes.jpg'
-import travel from '../../../assets/images/travel.jpg'
-import book from '../../../assets/images/book.jpg'
+import fur from '../../../assets/images/beaf.jpg'
+import bag from '../../../assets/images/pizza.jpg'
+import shoes from '../../../assets/images/burger.jpg'
+import travel from '../../../assets/images/steak.jpg'
+import book from '../../../assets/images/ken.jpg'
 
 const Category = () => {
     return (
@@ -16,6 +16,7 @@ const Category = () => {
             <div className='flex'>
                 <OneCategory title={'Burger'} photo={fur} />
                 <OneCategory title={'Pizza'} photo={bag} />
+                <OneCategory title={'staek'} photo={book} />
                 <OneCategory title={'staek'} photo={book} />
                 <OneCategory title={'beef stroganof'} photo={shoes} />
                 <OneCategory title={'Kentucky'} photo={travel} />
